@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3ff"/>
+      <stop offset="1" stop-color="#eaf7ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3aa0c8"/>
+      <stop offset="1" stop-color="#1c7a9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky2)"/>
+  <path d="M0,60 Q200,30 400,60 L400,300 L0,300 Z" fill="#d8c48a"/>
+  <path d="M0,60 Q200,30 400,60 L400,95 Q200,65 0,95 Z" fill="#e6d7a8"/>
+  <path d="M0,95 Q200,65 400,95 L400,140 Q200,110 0,140 Z" fill="url(#sea)"/>
+  <path d="M0,140 Q200,110 400,140 L400,300 L0,300 Z" fill="url(#sea)"/>
+  <g fill="#fff" opacity="0.5">
+    <path d="M30,160 q10,-6 20,0 q10,-6 20,0" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M120,200 q10,-6 20,0 q10,-6 20,0" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M250,180 q10,-6 20,0 q10,-6 20,0" stroke="#fff" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(60,70)">
+    <rect x="-2" y="10" width="6" height="26" fill="#7a5230"/>
+    <ellipse cx="1" cy="8" rx="22" ry="10" fill="#3f8a4a"/>
+  </g>
+  <g transform="translate(320,75)">
+    <rect x="-2" y="8" width="6" height="24" fill="#7a5230"/>
+    <ellipse cx="1" cy="6" rx="20" ry="9" fill="#3f8a4a"/>
+  </g>
+  <rect x="18" y="70" width="364" height="70" fill="none" stroke="#fffaf0" stroke-width="3" stroke-dasharray="10 8"/>
+</svg>

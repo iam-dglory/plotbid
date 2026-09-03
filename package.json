@@ -1,0 +1,18 @@
+{
+  "name": "plotbid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prototype: post a property (South India), let people bid, owner picks the winner.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^2.0.1"
+  }
+}
